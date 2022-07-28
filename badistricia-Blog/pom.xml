@@ -4,13 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>BABlog</artifactId>
-        <groupId>org.badistricia</groupId>
+        <groupId>com.badistricia</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>badistricia-blog</artifactId>
-
+    <artifactId>badistricia-Blog</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.badistricia</groupId>
+            <artifactId>badistricia-framework</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>

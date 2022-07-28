@@ -7,9 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="badistricia-admin" />
-        <module name="badistricia-blog" />
+        <module name="badistricia-Blog" />
         <module name="badistricia-framework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Badistricia-Blog" target="1.8" />
+      <module name="badistricia-blog" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
